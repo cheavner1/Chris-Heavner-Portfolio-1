@@ -13,8 +13,6 @@ git CMD:
 git clone https://github.com/cheavner1/Chris-Heavner-Portfolio-1.git
 
 C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>dir
- Volume in drive C has no label.
- Volume Serial Number is 1D0D-586E
 
 Directory of C:\Users\chris\Documents\Chris-Heavner-Portfolio-1
 
