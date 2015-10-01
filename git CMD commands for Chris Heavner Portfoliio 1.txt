@@ -1,0 +1,61 @@
+github setup
+
+Git CMD commands:
+git clone <url>  //pulls repository in to hard drive folder
+git status // shows what is different between the hard drive folder and the cloud, github.com
+git add <file>  //adds any new file in the hard drive folder
+git status  //shows any changes to be committed
+git commit -m "message"  //locks in the file with a message, the file is committed, staged, however, only on the hard drive, not sync-ed up to github.com
+git push  //syncs up with github.com
+
+set up Chris-Heavner-Portfolio-1:
+git CMD:
+git clone https://github.com/cheavner1/Chris-Heavner-Portfolio-1.git
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1D0D-586E
+
+Directory of C:\Users\chris\Documents\Chris-Heavner-Portfolio-1
+
+10/01/2015  03:08 PM    <DIR>          .
+10/01/2015  03:08 PM    <DIR>          ..
+10/01/2015  03:11 PM                29 README.md
+               1 File(s)             29 bytes
+               2 Dir(s)  28,669,509,632 bytes free
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>git add README.md
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>git commit -m "modified READM
+E"
+[master 562b781] modified README
+ 1 file changed, 1 insertion(+), 40 deletions(-)
+ rewrite README.md (97%)
+
+C:\Users\chris\Documents\Chris-Heavner-Portfolio-1>git push
+Counting objects: 3, done.
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (3/3), 278 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/cheavner1/Chris-Heavner-Portfolio-1.git
+   c69abad..562b781  master -> master
