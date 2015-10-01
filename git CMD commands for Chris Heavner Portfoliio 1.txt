@@ -1,4 +1,4 @@
-github setup
+github setup for Chris Heavner Portfolio 1
 
 Git CMD commands:
 git clone <url>  //pulls repository in to hard drive folder
